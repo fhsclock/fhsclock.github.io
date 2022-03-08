@@ -1,19 +1,32 @@
+/* * * * * * * * * * * * * *
+
+Copright 2021 Riley Jones. 
+All Rights Reserved.
+
+Stylesheet of FHS Clock.
+
+* * * * * * * * * * * * * * */
+
 body {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 21px;
 }
+
 .show {
   display: block !important;
 }
+
 .hide {
   display: none !important;
 }
+
 .footer {
   position: fixed;
   bottom: 10px;
   right: 10px;
   font-size: 70%;
 }
+
 .dots span {
   font-size: 27px;
   animation-name: blink;
@@ -41,8 +54,20 @@ body {
     opacity: 0;
   }
 }
+
 .all {
   margin-left: 10px;
 }
-.open { display: block !important;}
-.closed { display: none !important;}
+
+#releaseend,
+#schoolend {
+  display: none;
+}
+
+.open {
+  display: block !important;
+}
+
+.closed {
+  display: none !important;
+}
