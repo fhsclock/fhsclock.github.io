@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * *
 
-Copright 2021 Riley Jones. 
+Copright 2022 Riley Jones. 
 All Rights Reserved.
 
 Script of FHS Clock.
