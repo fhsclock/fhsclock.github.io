@@ -10,10 +10,7 @@ Stylesheet of FHS Clock.
 body {
   font-family: 'Acme';
   font-size: 21px;
-background: #134E5E;  
-background: -webkit-linear-gradient(to right, #71B280, #134E5E); 
-background: linear-gradient(to right, #71B280, #134E5E); 
-
+  background: #3f90a6;  
   color: #fff;
   text-shadow: 0 0 20px #000000;
   text-align: center;
