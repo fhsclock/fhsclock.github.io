@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * *
 
-Copright 2021 Riley Jones. 
+Copright 2022 Riley Jones. 
 All Rights Reserved.
 
 Stylesheet of FHS Clock.
@@ -10,6 +10,11 @@ Stylesheet of FHS Clock.
 body {
   font-family: Montserrat;
   font-size: 21px;
+  background-color: #212534;
+  color: #fff;
+  text-shadow: 0 0 20px #000000;
+  background-image: url("https://source.unsplash.com/2000x1250");
+  text-align: center;
 }
 
 .show {
