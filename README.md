@@ -1,2 +1,1 @@
-# fhsclock.github.io
-FHS Clock. 
+# FHS Clock!
