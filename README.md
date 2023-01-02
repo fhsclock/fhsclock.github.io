@@ -1,5 +1,5 @@
 # FHS Clock!
-A clock that is synchronized to Franklin High School's time. 
+A clock that is synchronized to Franklin High School's time. Each background is from Wisconsin, and is randomized by using Unsplash's API. 
 
 <a href="https://fhsclock.github.io">View Project</a>
 
