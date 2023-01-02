@@ -29,9 +29,9 @@ function weekday() {
 	function o(e, t) {
 		var n = t.getTime() - e.getTime();
 		d = n >= 0 ? n : n + 864e5;
-		var a = Math.floor(d / 3600 / 1e3),
-			o = Math.floor(d / 60 / 1e3) - 60 * a;
-		s(a, o, Math.floor(d / 1e3) - 3600 * a - 60 * o)
+		var a = Math.floor(d / 3600 / 1000),
+			o = Math.floor(d / 60 / 1000) - 60 * a;
+		s(a, o, Math.floor(d / 1000) - 3600 * a - 60 * o)
 	}
 
 	function r(e, t) {
@@ -64,9 +64,9 @@ function weekday() {
 		function o(e, t) {
 			var n = t.getTime() - e.getTime();
 			d = n >= 0 ? n : n + 864e5;
-			var a = Math.floor(d / 3600 / 1e3),
-				o = Math.floor(d / 60 / 1e3) - 60 * a;
-			s(a, o, Math.floor(d / 1e3) - 3600 * a - 60 * o)
+			var a = Math.floor(d / 3600 / 1000),
+				o = Math.floor(d / 60 / 1000) - 60 * a;
+			s(a, o, Math.floor(d / 1000) - 3600 * a - 60 * o)
 		}
 
 		function r(e, t) {
@@ -92,7 +92,7 @@ function updateClock() {
 	$("#clock").html(o)
 }
 weekday(), $(document).ready(function() {
-	setInterval(updateClock, 1e3)
+	setInterval(updateClock, 1000)
 });
 var weekday, d = new Date;
 (weekday = new Array(7))[0] = "Sunday", weekday[1] = "Monday", weekday[2] = "Tuesday", weekday[3] = "Wednesday", weekday[4] = "Thursday", weekday[5] = "Friday", weekday[6] = "Saturday";
@@ -111,7 +111,7 @@ document.getElementById("release").innerHTML = n2, $(document).ready(function() 
 var text = ["N/A"],
 	counter = 0,
 	elem = document.getElementById("countdown"),
-	inst = setInterval(change, 2000); // 995
+	inst = setInterval(change, 995);
 
 function change() {
 	elem.innerHTML = text[counter], ++counter >= text.length && (counter = 0, clearInterval(inst))
