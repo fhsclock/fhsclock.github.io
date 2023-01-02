@@ -111,7 +111,7 @@ document.getElementById("release").innerHTML = n2, $(document).ready(function() 
 var text = ["N/A"],
 	counter = 0,
 	elem = document.getElementById("countdown"),
-	inst = setInterval(change, 1000); // 995
+	inst = setInterval(change, 2000); // 995
 
 function change() {
 	elem.innerHTML = text[counter], ++counter >= text.length && (counter = 0, clearInterval(inst))
