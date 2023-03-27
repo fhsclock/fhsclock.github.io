@@ -1,6 +1,6 @@
 <!--* * * * * * * * * * * * * *
 
-Copright 2022 Riley Jones. 
+Copright 2023 Riley Jones. 
 All Rights Reserved.
 
 HTML of FHS Clock.
@@ -11,66 +11,61 @@ HTML of FHS Clock.
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Refresh" content="300"> 
-    <title>FHS Clock - Created by Riley Jones.</title>
-    <link rel="stylesheet" href="style.css?v=1.23" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FHS Clock</title>
+    <link rel="stylesheet" href="style.css?v=1.3" />
     <link rel="icon" href="https://www.franklin.k12.wi.us/uploaded/themes/default/images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" />
   </head>
- <body style="background-image: url(https://source.unsplash.com/random/1000x1500/?wisconsin);background-position:center;background-repeat:no-repeat;background-size: cover;">
-    <h1 class="all title">FHS Clock</h1>
-    <text class="all dots day"> Current day: <br />
+ <body>
+    <h1 class="title">FHS Clock</h1>
+      <div class="main">
+    <text class="all dots day prv"> Current day: <br /></text>
       <em class="all" id="day">Synchronizing <span>.</span>
         <span>.</span>
         <span>.</span>
       </em>
-    </text>
     <br />
     <br />
-    <text class="all dots ctime"> Current time: <br />
+    <text class="all dots ctime prv"> Current time: <br /></text>
       <em class="all" id="clock">Synchronizing <span>.</span>
         <span>.</span>
         <span>.</span>
       </em>
-    </text>
     <br />
     <br />
     <span id="schoolhours">
-      <text class="all dots stime"> School ends in: <br />
+      <text class="all dots stime prv"> School ends in: <br /></text>
         <em class="all" id="countdown">Synchronizing <span>.</span>
           <span>.</span>
           <span>.</span>
         </em>
-      </text>
       <br />
       <br />
     </span>
     <span id="schoolend">
-      <text class="all"> School ends in: <br />
+      <text class="all prv"> School ends in: <br /></text>
         <em class="all">N/A</em>
-      </text>
       <br />
       <br />
     </span>
     <span id="releaseend">
-      <text class="all"> Release time: <br />
+      <text class="all prv"> Release time: <br /></text>
         <em class="all">N/A</em>
-      </text>
       <br />
       <br />
     </span>
     <span id="releasetime">
-      <text class="all dots rtime"> Release time: <br />
+      <text class="all dots rtime prv"> Release time: <br /></text>
         <em class="all" id="release">Synchronizing <span>.</span>
           <span>.</span>
           <span>.</span>
         </em>
-      </text>
       <br />
       <br />
     </span>
-    <small class="footer">&copy; 2022 Riley Jones. All Rights Reserved.</small>
+  </div>
+    <small class="footer">created by riley jones. &lt;&sol;&gt;</small>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="script.js?v=1.2"></script>
+    <script src="script.js?v=1.3"></script>
   </body>
 </html>
