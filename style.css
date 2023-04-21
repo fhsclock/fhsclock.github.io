@@ -25,6 +25,10 @@ body {
   display: none !important
 }
 
+br {
+  user-select: none;
+}
+
 .footer {
   position: fixed;
   bottom: 10px;
