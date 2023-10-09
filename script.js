@@ -43,7 +43,7 @@ function weekday() {
     }
     if (0 == e.getDay() && document.getElementById("schoolhours")
         .classList.add("hide"), 1 == e.getDay()) {
-        var c = [14, 36, 0];
+        var c = [14, 34, 0];
 
         function t() {
             var e = o();
@@ -78,7 +78,7 @@ function weekday() {
         }
         t()
     }
-    2 == e.getDay() && (c = [14, 36, 0], t()), 3 == e.getDay() && (c = [14, 36, 0], t()), 4 == e.getDay() && (c = [14, 0, 0], t()), 5 == e.getDay() && (c = [14, 36, 0], t())
+    2 == e.getDay() && (c = [14, 34, 0], t()), 3 == e.getDay() && (c = [14, 34, 0], t()), 4 == e.getDay() && (c = [13, 56, 0], t()), 5 == e.getDay() && (c = [14, 34, 0], t())
 }
 
 function updateClock() {
@@ -102,7 +102,7 @@ document.getElementById("day")
     .innerHTML = n;
 var d2 = new Date,
     weekday2 = Array(7);
-weekday2[0] = "N/A", weekday2[1] = "2:36 PM", weekday2[2] = "2:36 PM", weekday2[3] = "2:36 PM", weekday2[4] = "2:00 PM", weekday2[5] = "2:36 PM", weekday2[6] = "N/A";
+weekday2[0] = "N/A", weekday2[1] = "2:34 PM", weekday2[2] = "2:34 PM", weekday2[3] = "2:34 PM", weekday2[4] = "1:56 PM", weekday2[5] = "2:34 PM", weekday2[6] = "N/A";
 var n2 = weekday2[d2.getDay()];
 document.getElementById("release")
     .innerHTML = n2, $(document)
@@ -111,7 +111,7 @@ document.getElementById("release")
                 t = new Date,
                 a = (new Date)
                     .getTime();
-            a > e.setHours(7, 18) && a < t.setHours(14, 36) ? (document.getElementById("schoolhours")
+            a > e.setHours(7, 20) && a < t.setHours(14, 34) ? (document.getElementById("schoolhours")
                 .classList.add("open"), document.getElementById("releasetime")
                     .classList.add("open")) : (document.getElementById("schoolhours")
                         .classList.add("closed"), document.getElementById("releasetime")
