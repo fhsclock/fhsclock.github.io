@@ -101,3 +101,24 @@ br {
   padding-bottom: 50px;
   font-size: 60px
 }
+
+.popup {
+  text-align: center;
+  margin-top: -50px;
+  font-size: 14px;
+  filter: brightness(75%);
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.popup:hover {
+  animation: whee 1s infinite;
+}
+
+@keyframes whee {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(5deg);}
+  50% {transform: rotate(0eg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
